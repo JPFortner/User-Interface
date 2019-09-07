@@ -49,10 +49,11 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+
 }
 
-html, body {
+html, body, button {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -63,4 +64,80 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+body, div, section, nav, img, a {
+	/* border: 1px dotted black; */
+}
+
+nav {
+	margin: auto;
+	text-align: center;
+	border-bottom: 2px solid black;
+	margin-bottom: 1em;
+}
+
+nav a, nav img {
+	margin: 0% 2%;
+	vertical-align: middle;
+	padding: .5em .5em;
+}
+
+.btnGetStarted {
+	background-color: white;
+	color: black;
+	width: 30%;
+	height: 2em;
+}
+
+header .headerLeft, .headerRight {
+	display: inline-block;
+	width: 45%;
+	vertical-align: middle;
+}
+
+.headerLeft {
+	text-align: center;
+	font-size: 3em;
+}
+
+.headerRight {
+	width: 379px;
+	height: 379px;
+	background: url("../img/header-img.png") no-repeat;
+}
+
+.headerRight:hover {
+	background-size: 379px 379px;
+	background: url("../img/smiley-face.jpg") no-repeat;
+}
+
+.middle-img {
+	width: 100%;
+	margin: 1em 0em;
+}
+
+.divContentTop, .divContentBottom {
+text-align: center;
+}
+
+.divContentTop section{
+	width: 45%;
+	margin: 0em 1em;
+}
+
+.divContentBottom section {
+	width: 29%;
+	margin: 0em 1em;
+}
+div section {
+	display: inline-block;
+}
+
+.divDivider {
+	border: 1px solid black;
+	margin: 1em 0em;
+}
+
+.copyrightCenter {
+	text-align: center;
+	margin: 1em;
+}
